@@ -16,7 +16,7 @@ calculate_peakdFF_snr_halfdecay.m: function for calculating peakdF/F0, peak snr,
 
 find_stimulus_evoked_neurons_bintrial_tobaseline.m: function for screening neurons that significantly response to stimulation in 2P. 
 
-neighbor_neuron_pair_correlation.m: scrips for calculate pearson correlation between neuron paires at distance from 0 to 600um in 2P.
+neighbor_neuron_pair_correlation.m: scrips for calculate pearson correlation between neuron paires at distance from 0 to 600μm in 2P.
 
 dff_Analysis_zebrafish.m:pipeline for calculating peak dff for zebrafish datasets
 
