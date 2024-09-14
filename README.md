@@ -15,7 +15,7 @@ For zebrafish and neuronal culture:
 - dff_Analysis_zebrafish.m:pipeline for calculating peak dff for zebrafish datasets
 
 - SNR_Analysis_zebrafish.m:pipeline for calculating peak SNR for zebrafish datasets
-- 
+
 - rise.m: code for calculating half-rise time in neuronal culture and zebrafish
 
 - rise_func.m: function for calculating half-rise time in neuronal culture and zebrafish
