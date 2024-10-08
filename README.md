@@ -1,7 +1,7 @@
 # Sensitive Red Fluorescent Calcium Indicators for Multi-Modality Imaging of Neuronal Populations In Vivo
 
 **Authors**:  
-Shihao Zhou, Qiyu Zhu, Minho Eom, Shilin Fang, Oksana M. Subach, Yangdong Wang, Jiewen Hu, Hanbin Zhang, Zhiyuan Wang, Xiaoting Sun, Mu Yu, Young-Gyu Yoon, Zengcai V. Guo, Fedor V. Subach, Kiryl D. Piatkevich
+Shihao Zhou, Qiyu Zhu, Minho Eom, Shilin Fang, Oksana M. Subach, Yangdong Wang, Jiewen Hu, Hanbin Zhang, Zhiyuan Wang, Xiaoting Sun, Yu Mu, Young-Gyu Yoon, Zengcai V. Guo, Fedor V. Subach, Kiryl D. Piatkevich
 
 ---
 
