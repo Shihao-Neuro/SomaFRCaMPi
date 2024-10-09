@@ -1,90 +1,90 @@
 %% Load data
 % soma-localization
 % 537_5 (Middle)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\537_5 middle processed\LOGS_09-Jan_15_17_53\09-Jan_15_21_27.mat')
+load('./data/one_photon/first_batch_no_denoising/537_5 middle processed/CNMF_E_results.mat')
 V_537_5_middle = neuron; clear neuron;
 % 537_5 (v 1.1)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\537_5 v 1.1 processed\LOGS_18-Dec_00_30_22\18-Dec_00_33_16.mat');
+load('./data/one_photon/first_batch_no_denoising/537_5 v 1.1 processed/CNMF_E_results.mat')
 V_537_5_v = neuron; clear neuron;
 % 537_6 (v)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\537_6 v processed\LOGS_18-Dec_00_41_21\18-Dec_00_45_41.mat');
+load('./data/one_photon/first_batch_no_denoising/537_6 v processed/CNMF_E_results.mat')
 V_537_6_v = neuron; clear neuron;
 % 537_7 (Middle)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\537_7 middle processed\LOGS_14-Jan_02_13_01\14-Jan_02_17_33.mat')
+load('./data/one_photon/first_batch_no_denoising/537_7 middle processed/CNMF_E_results.mat')
 V_537_7_middle = neuron; clear neuron;
 % 537_7 (Top)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\537_7 top processed\LOGS_14-Jan_02_13_16\14-Jan_02_19_14.mat')
+load('./data/one_photon/first_batch_no_denoising/537_7 top processed/CNMF_E_results.mat')
 V_537_7_top = neuron; clear neuron;
 % 537_7 (v)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\537_7 v processed\LOGS_18-Dec_00_51_56\18-Dec_00_56_13.mat');
+load('./data/one_photon/first_batch_no_denoising/537_7 v processed/CNMF_E_results.mat')
 V_537_7_v = neuron; clear neuron;
 
 % cytoplasm expression
 % 546_1 (Middle)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\546_1 middle 1.2 processed\LOGS_14-Jan_02_13_31\14-Jan_02_16_00.mat')
+load('./data/one_photon/first_batch_no_denoising/546_1 middle 1.2 processed/CNMF_E_results.mat')
 V_546_1_middle = neuron; clear neuron;
 % 546_1 (v 1.1)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\546_1 v 1.1 processed\LOGS_18-Dec_01_31_32\18-Dec_01_36_22.mat');
+load('./data/one_photon/first_batch_no_denoising/546_1 v 1.1 processed/CNMF_E_results.mat')
 V_546_1_v = neuron; clear neuron;
 % 546_2 (Middle)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\546_2 middle processed\LOGS_14-Jan_02_25_37\14-Jan_02_32_16.mat')
+load('./data/one_photon/first_batch_no_denoising/546_2 middle processed/CNMF_E_results.mat')
 V_546_2_middle = neuron; clear neuron;
 % 546_2 (Top)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\546_2 top processed\LOGS_14-Jan_02_25_49\14-Jan_02_30_26.mat')
+load('./data/one_photon/first_batch_no_denoising/546_2 top processed/CNMF_E_results.mat')
 V_546_2_top = neuron; clear neuron;
 % 546_2 (v)
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\546_2 v processed\LOGS_18-Dec_01_10_08\18-Dec_01_19_39.mat');
+load('./data/one_photon/first_batch_no_denoising/546_2 v processed/CNMF_E_results.mat')
 V_546_2_v = neuron; clear neuron;
 % 546_3 (Middle 1.2(MO-RSP))
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\546_2 middle 1.2(MO-RSP) processed\LOGS_14-Jan_02_26_01\14-Jan_02_28_32.mat')
+load('./data/one_photon/first_batch_no_denoising/546_2 middle 1.2(MO-RSP) processed/CNMF_E_results.mat')
 V_546_3_middle = neuron; clear neuron;
 % 546_3 (near v (RSP))
-load('./data_for_Henry\Henry_20240103_materials\first_batch_no_denoising\546_3 near v (RSP) processed\LOGS_18-Dec_01_14_42\18-Dec_01_21_17.mat');
+load('./data/one_photon/first_batch_no_denoising/546_3 near v (RSP) processed/CNMF_E_results.mat')
 V_546_3_v = neuron; clear neuron;
 
 % load second batch data
 
 % soma-localization
 % 537_4 (left_01)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\537_4_left_01_4x4_source_extraction\LOGS_13-Jan_19_08_30\13-Jan_19_11_28.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/537_4_left_01_4x4_source_extraction/CNMF_E_results.mat')
 W_537_4_left_01 = neuron; clear neuron;
 % 537_4 (left_02)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\537_4_left_02 ok_4x4_source_extraction\LOGS_13-Jan_19_09_15\13-Jan_19_12_31.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/537_4_left_02 ok_4x4_source_extraction/CNMF_E_results.mat')
 W_537_4_left_02 = neuron; clear neuron;
 % 537_4 (s1_01)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\537_4_s1_01_4x4_source_extraction\LOGS_13-Jan_19_10_54\13-Jan_19_16_02.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/537_4_s1_01_4x4_source_extraction/CNMF_E_results.mat')
 W_537_4_s1_01 = neuron; clear neuron;
 % 537_8 (01)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\537_08_01_4x4_source_extraction\LOGS_14-Jan_01_06_57\14-Jan_01_12_07.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/537_08_01_4x4_source_extraction/CNMF_E_results.mat')
 W_537_8_01 = neuron; clear neuron;
 % 537_8 (02)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\537_08_02_4x4_source_extraction\LOGS_14-Jan_01_08_10\14-Jan_01_12_34.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/537_08_02_4x4_source_extraction/CNMF_E_results.mat')
 W_537_8_02 = neuron; clear neuron;
 % 537_8 (03)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\537_08_03(fewer)_4x4_source_extraction\LOGS_14-Jan_01_08_18\14-Jan_01_12_26.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/537_08_03(fewer)_4x4_source_extraction/CNMF_E_results.mat')
 W_537_8_03 = neuron; clear neuron;
 
 % cytoplasm expression
 % 546_5 (01ssp)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\546_5_01ssp_4x4_source_extraction\LOGS_14-Jan_01_15_59\14-Jan_01_19_03.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/546_5_01ssp_4x4_source_extraction/CNMF_E_results.mat')
 W_546_5_01 = neuron; clear neuron;
 % 546_5 (02vis)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\546_5_02vis_4x4_source_extraction\LOGS_14-Jan_01_16_20\14-Jan_01_19_49.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/546_5_02vis_4x4_source_extraction/CNMF_E_results.mat')
 W_546_5_02 = neuron; clear neuron;
 % 546_5 (03ssp)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\546_5_03ssp_4x4_source_extraction\LOGS_14-Jan_01_16_33\14-Jan_01_19_23.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/546_5_03ssp_4x4_source_extraction/CNMF_E_results.mat')
 W_546_5_03 = neuron; clear neuron;
 % 546_6 (01ssp)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\546_6_01ssp_4x4_source_extraction\LOGS_14-Jan_01_22_19\14-Jan_01_25_21.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/546_6_01ssp_4x4_source_extraction/CNMF_E_results.mat')
 W_546_6_01 = neuron; clear neuron;
 % 546_8 (01sspagain)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\546_8_01sspagain_4x4_source_extraction\LOGS_14-Jan_01_22_32\14-Jan_01_30_30.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/546_8_01sspagain_4x4_source_extraction/CNMF_E_results.mat')
 W_546_8_01 = neuron; clear neuron;
 % 546_8 (02vis)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\546_8_02vis_4x4_source_extraction\LOGS_14-Jan_01_22_45\14-Jan_01_28_06.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/546_8_02vis_4x4_source_extraction/CNMF_E_results.mat')
 W_546_8_02 = neuron; clear neuron;
 % 546_9 (01ssp)
-load('./data_for_Henry\Henry_20240103_materials\second_batch_after_denoising\546_9_01ssp_4x4_source_extraction\LOGS_14-Jan_01_38_21\14-Jan_01_40_05.mat')
+load('/home/minho/Documents/SomaFRCaMPi/data/one_photon/second_batch_after_denoising/546_9_01ssp_4x4_source_extraction/CNMF_E_results.mat')
 W_546_9_01 = neuron; clear neuron;
 
 
