@@ -7,7 +7,10 @@ Shihao Zhou, Qiyu Zhu, Minho Eom, Shilin Fang, Oksana M. Subach, Yangdong Wang, 
 
 ## Software Dependencies
 
-* **2-Photon Imaging Analysis**: *To be added.*
+* **2-Photon Imaging Analysis**:
+  - Python 3.10
+  - suite2p
+  - Matlab 2023b 
 * **2-Photon Imaging Analysis (CNMF Analysis)**:  
   - Ubuntu 18.04  
   - Python 3.10  
@@ -17,7 +20,6 @@ Shihao Zhou, Qiyu Zhu, Minho Eom, Shilin Fang, Oksana M. Subach, Yangdong Wang, 
   - Matlab 2023b  
   - CNMF-E library 1.1.2
 * **Zebrafish and Neuronal Culture Analysis**:
-  - Python 3.10
   - Matlab 2023b
   - ImageJ2
 
@@ -27,7 +29,9 @@ Shihao Zhou, Qiyu Zhu, Minho Eom, Shilin Fang, Oksana M. Subach, Yangdong Wang, 
 
 ### 2-Photon Imaging Analysis
 
-1. *Details pending.*
+1. **Install suite2p:**
+Download suite2p and prepare the environment from:https://github.com/MouseLand/suite2p.
+This process usually takes less than an hour on a standard desktop.
 
 ### 2-Photon Imaging Analysis (CNMF Analysis)
 
@@ -53,7 +57,10 @@ The installation typically takes around 30 minutes on a standard desktop.
 Download and install Matlab 2023b from the official website. This process usually takes less than an hour on a standard desktop.
 
 ### Zebrafish and Neuronal Culture Analysis
-1. Details pending.
+1. **Install Matlab 2023b:**
+Download and install Matlab 2023b from the official website. This process usually takes less than an hour on a standard desktop.
+2. **Install ImageJ2:**
+Download and install ImageJ2 (Fiji) from the official website. This process usually takes less than an ten minutes on a standard desktop.
 
 ---
 
@@ -109,17 +116,17 @@ The following scripts are provided for analyzing zebrafish and neuronal culture 
 
 - **`SNR_Analysis_zebrafish.m`**:  
   Pipeline for calculating peak SNR in zebrafish datasets.
-  Similar to the former script, this MATLAB script receives input as xlsx files, then produces peak SNR of each ROI.MATLAB version：2022b.
+  Similar to the former script, this MATLAB script receives input as xlsx files, then produces peak SNR of each ROI.
 
 - **`rise.m`**:  
-  Code to calculate half-rise time from isolated spike traces in excel, extracted from neuronal culture and zebrafish data.
+  Code to calculate half-rise time from isolated spike traces extracted from neuronal culture and zebrafish data. 
 
 - **`rise_func.m`**:  
   Function for calculating half-rise time in neuronal culture and zebrafish datasets.
 
 - **`decay.m`**:  
-  Code to calculate half-rise time from isolated spike traces in excel, extracted from neuronal culture and zebrafish data.
-
+   Code to calculate half-decay time from isolated spike traces extracted from neuronal culture and zebrafish data.
+  
 - **`decay_func.m`**:  
   Function for calculating half-decay time in neuronal culture and zebrafish datasets.
 
