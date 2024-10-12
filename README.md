@@ -16,7 +16,10 @@ Shihao Zhou, Qiyu Zhu, Minho Eom, Shilin Fang, Oksana M. Subach, Yangdong Wang, 
   - Ubuntu 18.04  
   - Matlab 2023b  
   - CNMF-E library 1.1.2
-* **Zebrafish and Neuronal Culture Analysis**: *To be added.*
+* **Zebrafish and Neuronal Culture Analysis**:
+  - Python 3.10
+  - Matlab 2023b
+  - ImageJ2
 
 ---
 
@@ -102,18 +105,20 @@ The following scripts are provided for analyzing zebrafish and neuronal culture 
 ### Scripts:
 - **`dff_Analysis_zebrafish.m`**:  
   Pipeline for calculating peak ΔF/F₀ in zebrafish datasets.
+  First, we use Imagej to determine the ROI in the acquired images then extract the fluorescence trace of each ROI which are stored in xlsx file. This MATLAB script then process these xlsx files, producing peak ΔF/F₀ of each ROI.
 
 - **`SNR_Analysis_zebrafish.m`**:  
   Pipeline for calculating peak SNR in zebrafish datasets.
+  Similar to the former script, this MATLAB script receives input as xlsx files, then produces peak SNR of each ROI.MATLAB version：2022b.
 
 - **`rise.m`**:  
-  Code to calculate half-rise time in neuronal culture and zebrafish datasets.
+  Code to calculate half-rise time from isolated spike traces in excel, extracted from neuronal culture and zebrafish data.
 
 - **`rise_func.m`**:  
   Function for calculating half-rise time in neuronal culture and zebrafish datasets.
 
 - **`decay.m`**:  
-  Code to calculate half-decay time in neuronal culture and zebrafish datasets.
+  Code to calculate half-rise time from isolated spike traces in excel, extracted from neuronal culture and zebrafish data.
 
 - **`decay_func.m`**:  
   Function for calculating half-decay time in neuronal culture and zebrafish datasets.
